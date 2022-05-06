@@ -158,11 +158,12 @@ mongodb_version = "5.0"
   - Variable `query_server_is_flex_shape` should be defined as true when the query server instances are a flex shape. The variables `query_server_ocpus` and `query_server_memory_in_gb` should then also be defined. Do not use any of these variables at all when using a standard shape as they are not needed and assume sensible defaults.
   - Variable `shard_replica_set_is_flex_shape` should be defined as true when the shard server instances are a flex shape. The variables `shard_replica_set_ocpus` and `shard_replica_set_memory_in_gb` should then also be defined. Do not use any of these variables at all when using a standard shape as they are not needed and assume sensible defaults.
 
-## run command to install
-- terraform init
-- terraform plan
-- terrafrom apply
-
+## Run command to install
+```shell
+terraform init
+terraform plan
+terrafrom apply
+```
 ### Sample provider
 The following is the base provider definition to be used with this module
 

@@ -47,11 +47,11 @@ config_disk_size_in_gb     = "50"
 config_disk_vpus_per_gb    = "10"
 config_backup_policy_level = "bronze"
 
-query_disk_size_in_gb     = "50"
+query_disk_size_in_gb     = "100"
 query_disk_vpus_per_gb    = "10"
 query_backup_policy_level = "bronze"
 
-database_size_in_gb          = "50"
+database_size_in_gb          = "2048"
 database_vpus_per_gb         = "10"
 database_backup_policy_level = "bronze"
 

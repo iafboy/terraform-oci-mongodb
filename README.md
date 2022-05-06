@@ -12,6 +12,8 @@ The following is the reference architecture associated to this brick
 
 ![Reference Architecture](./images/Bricks_Architectures-mongodb.jpg)
 
+- attention: all instance cloud also be in the same compartment, same vcn
+
 ### Prerequisites
 - Pre-baked Artifact and Network Compartments
 - Pre-baked VCN
